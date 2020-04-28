@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: lightgray;
+    width: 100%;
+    height: 100vh;
+}
+.top-box{
+    height: 18vh;
+    width: 100vw;
+    background-color: rgb(57, 60, 63);
+}
+
+.center{
+    background-color: ivory;
+    margin: 0 auto;
+    width: 75%;
+    height: 70vh;
+}
+
+.bottom-box{
+    background-color: rgb(3, 3, 3);
+    margin: 0 auto;
+    width: 75%;
+    height: 10vh;
+}
