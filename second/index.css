@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    display: inline-block;
 }
 body {
     background-color: ivory;
@@ -9,11 +10,64 @@ body {
     width: 98vw;
     border: 5px solid black;
     margin-bottom: 25px;
+    padding: 10px;
+}
+
+.purp-box{
+    margin-top: 35px;
+    height: 75%;
+    width: 4vw;
+    background-color: indigo;
+    float: left;
+}
+
+.grn-box{
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 100%;
+    width: 300px;
+    background-color: green;
+
+}
+
+.blu-circ{
+    margin-left: 0px;
+    height: 100%;
+    width: 163.8px;
+    border-radius: 50%;
+    background-color: rgb(134, 167, 240);
 }
 
 .mid-box{
     margin-top: auto;
-    height: 25vh;
+    height: 28vh;
     width: 98vw;
     border: 5px dotted black;
+    padding: 45px;
+    margin-bottom: 25px;
+}
+
+.rectangle{
+    box-shadow: 5px 10px 7px rgb(48, 48, 48);
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245, 234, 171);
+}
+
+.hello-friends{
+    height: 35vh;
+    width: 55vw;
+    border: 2px solid lightgray;
+    margin: 0px 200px;
+    padding: 130px;
+    box-shadow: 2px 3px 7px lightgray;
+}
+
+.text{
+    color: indigo;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif
+
 }
