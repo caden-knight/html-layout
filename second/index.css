@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: ivory;
+}
+.top-box{
+    height: 20vh;
+    width: 98vw;
+    border: 5px solid black;
+    margin-bottom: 25px;
+}
+
+.mid-box{
+    margin-top: auto;
+    height: 25vh;
+    width: 98vw;
+    border: 5px dotted black;
+}
